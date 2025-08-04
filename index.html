@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Game - Ice Hockey Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Menu -->
+  <div id="main-menu" class="menu-bg">
+    <div class="arena-title">🏒 Ice Hockey Pong 🏒</div>
+    <div class="ice-hockey-rink">
+      <div class="rink-lines"></div>
+      <div class="puck"></div>
+    </div>
+    <div class="menu-panel">
+      <button id="play-cpu-btn" class="menu-btn">Play with Computer</button>
+      <button id="play-friend-btn" class="menu-btn">Play with Friend</button>
+      <div class="difficulty-select">
+        <span>Select Difficulty: </span>
+        <button class="diff-btn" data-diff="easy">Easy</button>
+        <button class="diff-btn" data-diff="medium">Medium</button>
+        <button class="diff-btn" data-diff="hard">Hard</button>
+      </div>
+    </div>
+    <div class="footer-note">Enjoy the chillest Ping Pong on ice! 🧊</div>
+  </div>
+
+  <!-- Pong Game Area -->
+  <div id="pong-container" class="pong-bg hidden">
+    <div id="scoreboard">
+      <div id="score-left">0</div>
+      <div class="score-separator">-</div>
+      <div id="score-right">0</div>
+    </div>
+    <canvas id="pong" width="800" height="400"></canvas>
+    <div id="game-result" class="hidden"></div>
+    <button id="back-to-menu-btn" class="side-btn">← Back to Menu</button>
+  </div>
+
+  <script src="pong.js"></script>
+</body>
+</html>
