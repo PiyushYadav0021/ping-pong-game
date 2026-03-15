@@ -4,7 +4,6 @@ A browser-based Ping Pong game developed using HTML, CSS, and JavaScript — wit
 
 ## 🎮 Live Demo
 Play the game here: [Ping Pong Game Live](https://piyushyadav0021.github.io/ping-pong-game/)  
-_(Make sure to deploy using GitHub Pages or Netlify and update this link.)_
 
 ---
 
