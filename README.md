@@ -32,7 +32,7 @@ The entire project was designed with the help of GPT-4.1. I prompted the AI step
 To run the game locally:
 
 1. Clone the repo:
-git clone https://github.com/piyushyadav0021/ping-pong-game.git
+git clone https://github.com/PiyushYadav0021/ping-pong-game.git
 
 2. Open the `index.html` file in your browser.
 
@@ -40,9 +40,7 @@ That’s it. No dependencies or installations needed.
 
 ---
 
-## 📸 Screenshots
 
-> Add a folder called `assets` and upload screenshots or a GIF of gameplay here.
 
 ---
 
